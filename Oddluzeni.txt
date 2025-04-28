@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oddlužení - Osobní bankrot a exekuce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #2b4f81;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .banner {
+            background-color: #d4af37;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+        section {
+            padding: 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .services, .about, .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .service-item {
+            margin: 15px 0;
+        }
+        button {
+            background-color: #2b4f81;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #1f3960;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Oddlužení</h1>
+</header>
+
+<div class="banner">
+    <h2>Začněte nový život bez dluhů!</h2>
+    <p>Pomůžeme vám najít cestu k finanční svobodě.</p>
+</div>
+
+<section class="services">
+    <h2>Naše služby</h2>
+    <div class="service-item">✅ Oddlužení fyzických osob</div>
+    <div class="service-item">✅ Osobní bankrot</div>
+    <div class="service-item">✅ Řešení exekucí</div>
+    <div class="service-item">✅ Konkurzy firem a živnostníků</div>
+    <button>Kontaktujte nás</button>
+</section>
+
+<section class="about">
+    <h2>O nás</h2>
+    <p>Jsme specialisté na oddlužení a pomáháme lidem začít znovu. Garantujeme profesionální přístup, diskrétnost a jasná řešení vaší finanční situace.</p>
+</section>
+
+<section class="contact">
+    <h2>Kontakt</h2>
+    <p>Zavolejte nám na číslo <strong>+420 XXX XXX XXX</strong> nebo nám napište na email: <strong>info@oddluzeni.cz</strong></p>
+</section>
+
+<footer>
+    &copy; 2025 Oddlužení. Všechna práva vyhrazena.
+</footer>
+
+</body>
+</html>
